@@ -21,7 +21,7 @@ Train Dataset:
 
 About the script and the cleaning process
 -------------------------------------
-A script (Get_Clean_Data_Rscript.r) was created to merge the test and train data sets. 
+A script (Get_Clean_Data_Rscript.r) was created to merge the test and train data sets. Direct link to script: https://github.com/BarrieFitzgerald/Coursera_Get_Clean_Data_Course_Project/blob/master/Get_Clean_Data_Rscript.R
 
 There are helpful notes in the script that must be followed in teh initial set up.
 
@@ -33,9 +33,9 @@ Now, you can begin the process of cleaning the data to create a tidy data set.
 After the merger of two sets of data, lables are added. and extra data (data not needed) were excluded. 
 Only the mean and standard deviation variables were kept.
 
-About the exporting of the data set
+About the exporting of the dataset
 -------------------------------------
-Once the data set has been created, the script will export the dataset as a tab-delimited file called "tidy.txt." 
+Once the data set has been created, the script will export the dataset as a tab-delimited file called "tidy.txt." Direct link to dataset: https://github.com/BarrieFitzgerald/Coursera_Get_Clean_Data_Course_Project/blob/master/tidy.txt
 
 About the Code Book
 -------------------
