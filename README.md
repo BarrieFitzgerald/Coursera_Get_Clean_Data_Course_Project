@@ -39,5 +39,5 @@ Once the data set has been created, the script will export the dataset as a tab-
 
 About the Code Book
 -------------------
-The CodeBook.md file explains the transformations performed and the resulting data and variables.
+The CodeBook.md file explains the transformations performed and the resulting data and variables. Direct link to CodeBook: https://github.com/BarrieFitzgerald/Coursera_Get_Clean_Data_Course_Project/blob/master/CodeBook.md
 
