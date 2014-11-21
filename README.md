@@ -33,7 +33,7 @@ Now, you can begin the process of cleaning the data to create a tidy data set.
 After the merger of two sets of data, lables are added. and extra data (data not needed) were excluded. 
 Only the mean and standard deviation variables were kept.
 
-About the exporting of hte data set
+About the exporting of the data set
 -------------------------------------
 Once the data set has been created, the script will export the dataset as a tab-delimited file called "tidy.txt." 
 
