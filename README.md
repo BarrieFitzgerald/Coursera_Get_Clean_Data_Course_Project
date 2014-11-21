@@ -3,17 +3,21 @@ Getting and Cleaning Data: Course Project
 
 Introduction
 ------------
-This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization.
-What follows first are my notes on the original data.
+This repository contains the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization.
 
-About the raw data
+Notes on the original data.
+
+About the data
 ------------------
+Test Dataset:
+* The 561 available features are found in the x_test.txt. The data is not labeled.
+* The activity labels are located in the y_test.txt file.
+* The test subjects are located in the subject_test.txt file.
 
-The features (561 of them) are unlabeled and can be found in the x_test.txt. 
-The activity labels are in the y_test.txt file.
-The test subjects are in the subject_test.txt file.
-
-The same holds for the training set.
+Train Dataset:
+* The 561 available features are found in the x_train.txt. The data is not labeled.
+* The activity labels are located in the y_train.txt file.
+* The test subjects are located the subject_train.txt file.
 
 About the script and the tidy dataset
 -------------------------------------
