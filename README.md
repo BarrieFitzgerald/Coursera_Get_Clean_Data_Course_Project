@@ -19,9 +19,9 @@ Train Dataset:
 * The activity labels are located in the y_train.txt file.
 * The test subjects are located the subject_train.txt file.
 
-About the script and the tidy dataset
+About the script
 -------------------------------------
-I created a script called run_analysis.R which will merge the test and training sets together.
+A script (Get_Clean_Data_Rscript.r) was created to devel called run_analysis.R which will merge the test and training sets together.
 Prerequisites for this script:
 
 1. the UCI HAR Dataset must be extracted and..
