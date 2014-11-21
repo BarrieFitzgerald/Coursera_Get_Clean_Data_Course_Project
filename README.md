@@ -7,7 +7,7 @@ This repository contains the course project for the Coursera course "Getting and
 
 Notes on the original data.
 
-About the data
+About the dataset
 ------------------
 Test Dataset:
 * The 561 available features are found in the x_test.txt. The data is not labeled.
