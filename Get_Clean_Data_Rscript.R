@@ -1,4 +1,4 @@
-## setiting the working directory and creating a folder
+## setting the working directory and creating a folder
 ## NOTE: THIS OR PARTS MAY NOT NEED TO BE RAN IF WORKING DIRECTORY 
         ## AND/OR FOLDER ALREADY EXISTS
 setwd("C:/Users/bdfitzgerald/Desktop")
@@ -17,7 +17,7 @@ unzip("Data_set.zip")
 train = read.csv("UCI HAR Dataset/train/X_train.txt", sep="", header=FALSE)
 train[,562] = read.csv("UCI HAR Dataset/train/Y_train.txt", sep="", header=FALSE)
 train[,563] = read.csv("UCI HAR Dataset/train/subject_train.txt", sep="", header=FALSE)
-## preparting the testing data
+## preparing the testing data
 test = read.csv("UCI HAR Dataset/test/X_test.txt", sep="", header=FALSE)
 test[,562] = read.csv("UCI HAR Dataset/test/Y_test.txt", sep="", header=FALSE)
 test[,563] = read.csv("UCI HAR Dataset/test/subject_test.txt", sep="", header=FALSE)
@@ -32,11 +32,11 @@ features[,2] = gsub('[-()]', '', features[,2])
 data = rbind(train, test)
 ## filtering only the data needed
 colsneed <- grep(".*Mean.*|.*Std.*", features[,2])
-# filtering teh features to needed items
+# filtering the features to needed items
 features <- features[colsneed,]
 # adding the last two columns
 colsneed <- c(colsneed, 562, 563)
-# removing any unwated data columns
+# removing any unwanted data columns
 data <- data[,colsneed]
 # adding column names
 colnames(data) <- c(features$V2, "Activity", "Subject")
