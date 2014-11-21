@@ -7,7 +7,7 @@ Data set can be found from the "Human Activity Recognition Using Smartphones Dat
 
 Feature Selection 
 -----------------
-To learn more about the features within the dataset, please see the README and features.txt files. The following description can be found:
+To learn more about the features within the dataset, please see the README and features.txt files. Direct link to README file: https://github.com/BarrieFitzgerald/Coursera_Get_Clean_Data_Course_Project/blob/master/README.md
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
