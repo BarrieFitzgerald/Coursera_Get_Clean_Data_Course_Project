@@ -19,18 +19,23 @@ Train Dataset:
 * The activity labels are located in the y_train.txt file.
 * The test subjects are located the subject_train.txt file.
 
-About the script
+About the script and the cleaning process
 -------------------------------------
-A script (Get_Clean_Data_Rscript.r) was created to devel called run_analysis.R which will merge the test and training sets together.
-Prerequisites for this script:
+A script (Get_Clean_Data_Rscript.r) was created to merge the test and train data sets. 
 
-1. the UCI HAR Dataset must be extracted and..
-2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+There are helpful notes in the script that must be followed in teh initial set up.
 
-After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
+First, you need to set up your working directory and folder.
+Second, you need to download the data.
+Third, you need to download the data and unzip the file to begin working the script
+Now, you can begin the process of cleaning the data to create a tidy data set.
 
-Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity.
-This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
+After the merger of two sets of data, lables are added. and extra data (data not needed) were excluded. 
+Only the mean and standard deviation variables were kept.
+
+About the exporting of hte data set
+-------------------------------------
+Once the data set has been created, the script will export the dataset as a tab-delimited file called "tidy.txt." 
 
 About the Code Book
 -------------------
